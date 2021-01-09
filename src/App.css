@@ -2,37 +2,50 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-content {
+  margin : 4.5rem 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  font: inherit;
+  background: #5101d1;
+  cursor: pointer;
+  vertical-align: middle;
+  border-radius: 5px;
+  margin: 0 1rem 0 0 ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn:hover {
+  background: rgba(92, 1, 237, 0.89)
+}
+input[type=text],
+input[type=datetime-local],
+input[type=email],
+input[type=password],
+input[type=number],
+textarea
+{
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  padding: 12px 12px;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+input[type=text]:hover,
+input[type=datetime-local]:hover,
+input[type=email]:hover,
+input[type=password]:hover,
+input[type=number]:hover,
+textarea:hover {
+  border: 1px solid #5101d1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
